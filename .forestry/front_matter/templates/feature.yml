@@ -1,0 +1,13 @@
+---
+label: Feature
+hide_body: false
+is_partial: true
+display_field: summary
+fields:
+- type: text
+  label: Summary
+  name: summary
+  description: A short description of an API feature
+  hidden: false
+  config:
+    required: false
