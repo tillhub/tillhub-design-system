@@ -18,6 +18,13 @@ module.exports = {
           ['/components/currencies', 'Currencies']
         ]
       },
+      {
+        title: 'Typography',
+        children: [
+          ['/typography/', 'Overview'],
+          ['/typography/about', 'Typography']
+        ]
+      },
       ['/about', 'About']
     ],
     docsRepo: 'tillhub/tillhub-design-system',
