@@ -4,29 +4,34 @@ module.exports = {
 	themeConfig: {
 		sidebar: [
       '/',
+     // {
+       // title: 'Guides',
+       // children: [
+       //   ['/guides/', 'Overview'],
+       //   ['/guides/spacing', 'Spacing']
+      //  ]
+     // },
+     // {
+     //   title: 'Components',
+     //   children: [
+     //     ['/components/', 'Overview'],
+     //     ['/components/currencies', 'Currencies']
+     //   ]
+     // },
       {
-        title: 'Guides',
+        title: 'Dashboard',
         children: [
-          ['/guides/', 'Overview'],
-          ['/guides/spacing', 'Spacing']
+          ['/Dashboard/', 'Overview'],
         ]
       },
-      {
-        title: 'Components',
-        children: [
-          ['/components/', 'Overview'],
-          ['/components/currencies', 'Currencies']
-        ]
-      },
-      {
-        title: 'Typography',
-        children: [
-          ['/typography/', 'Overview'],
-          ['/typography/about', 'Typography']
-        ]
-      },
-      ['/about', 'About']
-    ],
+    {
+      title: 'POS',
+      children: [
+        ['/POS/', 'Overview'],
+      ]
+    },
+    ['/about', 'About']
+  ],
     docsRepo: 'tillhub/tillhub-design-system',
     editLinks: true,
     editLinkText: 'Help us improve this page!',
